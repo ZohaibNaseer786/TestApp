@@ -27,7 +27,6 @@ const DrawerIconHandler = (name, type) => {
 
 const CustomSidebarMenu = props => {
   const switchAccount = useSelector(state => state.switch_user);
-  const userData = useSelector(state => state.current_user);
   const dispatch = useDispatch();
 
   const toggleSwitch = () => {

@@ -7,6 +7,7 @@ import {ScreensName} from '../../assets/string/String';
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
+      //splash screen go to welcome screen after 2 second
       navigation.replace(ScreensName.WizardScreen);
     }, 2000);
   }, []);
